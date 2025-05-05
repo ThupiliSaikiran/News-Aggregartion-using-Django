@@ -1,5 +1,5 @@
 # [Build a News Aggregator With Django][published url]
-## Instructor: [Derek Jensen][instructor url]
+## Instructor: [Thuspili Sai Kiran][instructor url]
 
 
 If you like the elegance of the Python programming language, Django is the web framework for you! Django is a powerful but pragmatic framework, with an emphasis on getting work done. If you've been wanting to learn more about this popular platform for web application development, then this course is for you!
