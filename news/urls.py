@@ -1,10 +1,9 @@
-from django.conf.urls import url
+from django.urls import path
 from . import views
 
 
 urlpatterns = [
-    url(r'^$', views.articles_list, name='articles_list'),
-    url(r'^feeds/new', views.new_feed, name='feed_new'),
-    url(r'^feeds/', views.feeds_list, name='feeds_list')
-
+    path('', views.articles_list, name='articles_list'),
+    path('feeds/new/', views.new_feed, name='feed_new'),
+    path('feeds/', views.feeds_list, name='feeds_list'),
 ]

@@ -11,7 +11,7 @@ class Feed(models.Model):
         return self.title
 
 class Article(models.Model):
-    feed = models.ForeignKey(Feed)
+    feed = models.ForeignKey(Feed,on_delete=models.CASCADE)
     title = models.CharField(max_length=200)
     url = models.URLField()
     description = models.TextField()
